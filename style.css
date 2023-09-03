@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto',sans-serif;
+  background: linear-gradient(45deg,#0a0a0a,white )
+}
+
+.hEading{
+  font-size:40px;
+}
+
+
+.button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 40%;
+  cursor: pointer;
+  background: transparent;
+  color: #ffffff;
+font-size: 20px;
+box-shadow: 0px 3px 15px rgba(28, 9, 10, 0.5);
+
+}
+
+.equalBtn{
+  background-color:#060300;
+}
+
+.row {
+  margin: 8px 0;
+  
+}
+
+.row input {
+  border: none;
+  padding:20px;
+  background: transparent;
+color:#ffffff;
+  width: 256px;
+  font-size: 40px;
+  margin: 0;
+  text-align: right;
+
+
+
+} 
+.operator{
+  color: #060300;
+  background-color: orangered;
+}
+
+.calculator {
+  border: 1px solid #717377;
+  padding:20px;
+  border-radius: 16px;
+background: transparent;
+box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+
+}
